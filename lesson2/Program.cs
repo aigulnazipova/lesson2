@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace lesson2
+namespace Tymakov2
 {
     class Program
     {
