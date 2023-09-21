@@ -64,6 +64,14 @@ namespace tasks
                 Console.WriteLine($"Новая строка: {new_str}\n");
 
 
+            Console.WriteLine("Задача 4. Программа считает количество вхождений подстроки в строку");
+            Console.WriteLine("Введите строку");
+            string String = Console.ReadLine();
+            Console.WriteLine("Введите подстроку");
+            string Substring = Console.ReadLine();
+            Console.WriteLine($"Количество вхождений подстроки в строку - {Regex.Matches(String, Substring).Count}\n");
+
+
             Console.WriteLine("Задача 5.");
             Console.WriteLine("Введите стандартную цену виски:");
             int normPrice = Convert.ToInt32(Console.ReadLine());
