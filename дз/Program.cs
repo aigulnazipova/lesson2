@@ -33,8 +33,7 @@ namespace tasks
             Console.WriteLine("Тип данных - float, минимальное значение = {0}, максимальное значение = {1}", float.MinValue, float.MaxValue);
             Console.WriteLine("Тип данных - double, минимальное значение = {0}, максимальное значение = {1}", double.MinValue, double.MaxValue);
             Console.WriteLine("Тип данных - decimal, минимальное значение = {0}, максимальное значение = {1}\n", decimal.MinValue, decimal.MaxValue);
-            
-
+        
 
             Console.WriteLine("Задача 2. Программа принимает и выводит данные о пользователе");
             Console.WriteLine("Введите ваше имя");
@@ -107,12 +106,7 @@ namespace tasks
                     Console.WriteLine("Но могу показать");
                     Console.BackgroundColor = ConsoleColor.Red;
                 }    
-            }
-            
-            
-            
-
-            
+            } 
         }
     }
 }
