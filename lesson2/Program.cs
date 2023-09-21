@@ -70,7 +70,7 @@ namespace lesson2
             else
             {
                 x1 = (-b + Math.Sqrt(d)) / (2 * a);
-                x2 = (-b - Math.Pow(d, 0.5)) / (2 * a);
+                x2 = (-b - Math.Sqrt(d)) / (2 * a);
                 Console.WriteLine("x1={0}; x2={1}", x1, x2);
             }
         }
